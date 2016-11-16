@@ -1,7 +1,10 @@
-#Cloud Foundry Static Buildpack
-[![CF Slack](https://s3.amazonaws.com/buildpacks-assets/buildpacks-slack.svg)](http://slack.cloudfoundry.org)
 
-A Cloud Foundry [buildpack](http://docs.cloudfoundry.org/buildpacks/) for static stites (HTML/JS/CSS).
+#Cloud Foundry Polymer Buildpack
+
+A Cloud Foundry [buildpack](http://docs.cloudfoundry.org/buildpacks/) modified to suit sites using polymer. Works well with polymer app toolbox/routing - redirects all traffic to index.html.
+
+Based upon: https://github.com/cloudfoundry/staticfile-buildpack
+
 
 ### Buildpack User Documentation
 
