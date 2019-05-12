@@ -1,10 +1,12 @@
 
-#Cloud Foundry Polymer Buildpack
+# Cloud Foundry Polymer Buildpack
 
 A Cloud Foundry [buildpack](http://docs.cloudfoundry.org/buildpacks/) modified to suit sites using polymer. Works well with polymer app toolbox/routing - redirects all traffic to index.html.
 
 Based upon: https://github.com/cloudfoundry/staticfile-buildpack
 
+## Enabling Https
+To enable HTTPs add a runtime environment variable of FORCE_HTTPS=true
 
 ### Buildpack User Documentation
 
